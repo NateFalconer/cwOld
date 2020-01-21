@@ -6,4 +6,6 @@ function positiveSum(arr) {
       }
      }
      return count;
-  }//hello
+  }
+
+  // Hey Nate, this is Gustavo messing around! 
