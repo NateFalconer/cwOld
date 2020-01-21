@@ -6,4 +6,4 @@ function positiveSum(arr) {
       }
      }
      return count;
-  }
+  }//hello
