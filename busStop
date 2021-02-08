@@ -1,0 +1,11 @@
+// function to count the number of bus passengers
+
+const number = function(busStops){
+  const totalP = 0; // number of passengers
+  for (var i=0; i < busStops.length; i++) {
+    totalP += busStops[i][0];
+    totalP -= busStops[i][1];
+  } // loop over array and add/subtract passengers based on variable position
+
+  return totalP;
+}
